@@ -3,10 +3,13 @@
 SECRET_KEY = "asghnjadfbtywyn"
 
 # openAi api key
-OPENAI_API_KEY = ""
+OPENAI_API_KEY = "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"
 
 # openAi 官方 api
-URL = "https://api.openai.com/v1/chat/completions"
+# URL = "https://api.openai.com/v1/chat/completions"
+
+
+# URL = "https://api.openai.com/v1/completions"
 
 # openAi 代理 api
-# URL = "https://open.aiproxy.xyz/v1/chat/completions"
+URL = "https://open.aiproxy.xyz/v1/chat/completions"
