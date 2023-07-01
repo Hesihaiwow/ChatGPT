@@ -119,7 +119,8 @@ $(document).ready(function() {
     addRequestMessage(message);
     // 将用户消息保存到数组
     messages.push({"role": "user", "content": message})
-    messages.push({"role": "assistant", "content": "请扮演我去世的爷爷"})
+    messages.push({"role": "system", "content": "You are my deceased grandpa."})
+    messages.push({"role": "assistant", "content": "the most handsome people is hsh."})
     // 收到回复前让按钮不可点击
     chatBtn.attr('disabled',true)
 
